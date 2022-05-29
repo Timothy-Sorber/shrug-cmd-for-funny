@@ -1,12 +1,12 @@
-commmand /shrug:
+command /shrug:
  trigger:
-  broadcast "<red>%player%: <white>¯\_(ツ)_/¯"
-
-command /hug <arg>:
- trigger:
-  broadcast "<purple>%player% <green>hugged <yellow>%arg%"
+  broadcast "&c%player%: <yellow>¯\_(ツ)_/¯"
   
-command /lag
+command /hug <text>:
  trigger:
-  broadcast "<red>%player% thought there was lag.."
-  make console execute command "/kick %player% Did that fix it?"
+  broadcast "<green>%player% hugged %arg%"
+  
+command /lag:
+ trigger:
+  broadcast "&c%player% thought there was lag.."
+  kick player
