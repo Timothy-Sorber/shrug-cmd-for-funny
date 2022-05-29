@@ -1,0 +1,3 @@
+commmand /shrug:
+ trigger:
+  broadcast "<red>%player%: <white>¯\_(ツ)_/¯"
